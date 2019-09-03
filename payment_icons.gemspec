@@ -15,9 +15,5 @@ Gem::Specification.new do |s|
   s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.rdoc']
   s.test_files = Dir['test/**/*']
 
-  s.add_dependency 'frozen_record'
-  s.add_dependency 'railties', '>= 5.0'
   s.add_dependency 'sass'
-
-  s.add_development_dependency('rails', '>= 5.0')
 end
